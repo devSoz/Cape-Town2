@@ -81,7 +81,6 @@ public class AdapterHeroes extends RecyclerView.Adapter<AdapterHeroes.HeroViewHo
             layoutHero = (LinearLayout) view.findViewById(R.id.layoutHero);
             name = (TextView) view.findViewById(R.id.Name);
 
-            linearLayoutFront = (LinearLayout) view.findViewById(R.id.layoutFront);
             ibtnFavHero = (ImageButton) view.findViewById(R.id.btnFavHero);
           }
     }
