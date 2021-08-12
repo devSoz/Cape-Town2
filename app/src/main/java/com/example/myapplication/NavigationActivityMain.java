@@ -93,6 +93,9 @@ public class NavigationActivityMain extends AppCompatActivity {
             case R.id.nav_fav:
                 fragmentClass = FavHeroDisplay.class;
                 break;
+            case R.id.nav_help:
+                fragmentClass = HelpActivity.class;
+                break;
             default:
                 fragmentClass = MainActivity.class;
         }
