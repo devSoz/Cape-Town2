@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    cardView:cardCornerRadius="8dp"
+    cardView:cardBackgroundColor="@color/cardBgd"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    cardView:cardElevation="8dp"
+    android:layout_margin="14dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+    <LinearLayout
+        android:id="@+id/hlayoutHero"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/himageView"
+                    android:layout_width="280dp"
+                    android:layout_height="280dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:visibility="visible"
+                    android:transitionName="hero_transition"/>
+        <TextView
+            android:id="@+id/hName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingRight="16dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/slug"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/fullname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5.0"
+                        android:paddingTop="5dp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/birthplace"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/white" />
+                    <TextView
+                        android:id="@+id/color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/white" />
+                    <TextView
+                        android:id="@+id/weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/firstappearance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/white" />
+
+
+
+                    <TextView
+                        android:id="@+id/work"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5.0"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/connection1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5.0"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/connection2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5.0"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </ScrollView>
+
+
+</androidx.cardview.widget.CardView>
